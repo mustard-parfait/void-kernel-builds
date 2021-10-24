@@ -50,10 +50,10 @@ cd void-kernel-builds
 
 The followings are the list of kernels that will be and can be complied
 
-[X] 5.14.9
-[ ] 5.13.19
-[ ] 5.12.19
-[ ] 5.11.22
+- [X] 5.14.9
+- [ ] 5.13.19
+- [ ] 5.12.19
+- [ ] 5.11.22
 
 ## Contributing
 
