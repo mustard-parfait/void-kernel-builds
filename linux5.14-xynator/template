@@ -49,11 +49,6 @@ export KBUILD_BUILD_TIMESTAMP=$(LC_ALL=C date -ud @${SOURCE_DATE_EPOCH:-0})
 export KBUILD_BUILD_USER=voidlinux
 export KBUILD_BUILD_HOST=voidlinux
 
-if [ ! -e ${srcdir}/linux-tkg ]; then    
-    cd ${srcdir}    
-    git clone https://github.com/Frogging-Family/linux-tkg.git    
-fi
-
 if [ "$CROSS_BUILD" ]; then
 	_cross="CROSS_COMPILE=${XBPS_CROSS_TRIPLET}-"
 fi
