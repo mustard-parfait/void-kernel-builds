@@ -1,7 +1,7 @@
 <div align="center">    
   <h3 align="center">Void Linux Kernel Builds</h3>    
   <p align="center">    
-    AppArmor profiles for my personal computer and server    
+    Void linux kernel builds using linux-tkg patches and void-packages template
     <br />    
     <a href="https://github.com/70xH/void-kernel-builds/issues">Report Bug</a>    
     ·    
